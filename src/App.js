@@ -1,4 +1,4 @@
-import { Button, colors, Grid, Typography } from "@material-ui/core";
+import { Button, Grid, Typography } from "@material-ui/core";
 import "./styles.css";
 
 export default function App() {
@@ -11,16 +11,13 @@ export default function App() {
               <span role="img" aria-label="the egg way">
                 (🥚,🐣)
               </span>
-              <Typography
-                variant="span"
-                style={{ fontSize: "18px", marginLeft: "3px" }}
-              >
+              <span style={{ fontSize: "18px", marginLeft: "3px" }}>
                 EggDao
-              </Typography>
+              </span>
             </div>
           </Grid>
           <Grid item xs={6}>
-            <Grid container justify="space-between">
+            <Grid container justifyContent="space-between">
               <Button className="NavButton">Products</Button>
               <Button className="NavButton">Get Involved</Button>
               <Button className="NavButton">Social</Button>
