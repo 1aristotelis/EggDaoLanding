@@ -1,0 +1,57 @@
+.LandingPage {
+  height: 100vh;
+  width: 100%;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Headers {
+  display: flex;
+  padding: 12px;
+  background-color: #b17c01;
+}
+.Main {
+  display: flex;
+  flex-direction: column;
+  margin: 24px;
+}
+.Footers {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  background-color: #b17c01;
+}
+
+.Brand {
+  font-weight: 666;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.Metrics {
+  padding: 3px;
+  text-align: center;
+}
+
+.NavButton {
+  text-transform: none;
+}
+
+.Title {
+  font-size: 33px;
+  font-weight: bold;
+  margin-bottom: 33px;
+  text-align: center;
+}
+.Subtitle {
+  font-size: 16px;
+  margin-bottom: 33px;
+  text-align: center;
+}
+
+.ActionButton {
+  text-transform: none;
+  width: 100%;
+  margin: 30px;
+}
