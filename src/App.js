@@ -5,8 +5,7 @@ import {
   IconButton,
   Grid,
   Hidden,
-  Typography,
-  AppBar
+  Typography
 } from "@material-ui/core";
 import "./styles.css";
 import MenuIcon from "@material-ui/icons/Menu";
@@ -43,7 +42,7 @@ export default function App() {
             <div>
               <h2>Products</h2>
               <ul style={{ listStyleType: "none" }}>
-                <li>Twetch Community Tool</li>
+                <li>Twetch Community Tools</li>
                 <li>Staking</li>
                 <li>Bonding</li>
               </ul>
