@@ -40,32 +40,54 @@ export default function App() {
         <ul style={{ listStyleType: "none" }}>
           <li>
             <div>
-              <h2>Products</h2>
+              <Typography variant="h3">Products</Typography>
               <ul style={{ listStyleType: "none" }}>
-                <li>Twetch Community Tools</li>
-                <li>Staking</li>
-                <li>Bonding</li>
+                <li>
+                  <Typography variant="body1">
+                    Twetch Community Tools
+                  </Typography>
+                </li>
+                <li>
+                  <Typography variant="body1">Staking</Typography>
+                </li>
+                <li>
+                  <Typography variant="body1">Bonding</Typography>
+                </li>
               </ul>
             </div>
           </li>
           <li>
             <div>
-              <h2>Get Involved</h2>
+              <Typography variant="h3">Get Involved</Typography>
               <ul style={{ listStyleType: "none" }}>
-                <li>Forum</li>
-                <li>Governance</li>
-                <li>Documentation</li>
+                <li>
+                  <Typography variant="body1">Forum</Typography>
+                </li>
+                <li>
+                  <Typography variant="body1">Governance</Typography>
+                </li>
+                <li>
+                  <Typography variant="body1">Documentation</Typography>
+                </li>
               </ul>
             </div>
           </li>
           <li>
             <div>
-              <h2>Social</h2>
+              <Typography variant="h3">Social</Typography>
               <ul style={{ listStyleType: "none" }}>
-                <li>Github</li>
-                <li>Medium</li>
-                <li>Twitter</li>
-                <li>Discord</li>
+                <li>
+                  <Typography variant="body1">Github</Typography>
+                </li>
+                <li>
+                  <Typography variant="body1">Medium</Typography>
+                </li>
+                <li>
+                  <Typography variant="body1">Twitter</Typography>
+                </li>
+                <li>
+                  <Typography variant="body1">Discord</Typography>
+                </li>
               </ul>
             </div>
           </li>
