@@ -69,6 +69,8 @@ export default function App() {
                 >
                   <Grid item>
                     <Button
+                      href="https://app.eggdao.xyz"
+                      target="_blank"
                       style={{ width: 222, textTransform: "none" }}
                       variant="contained"
                       color="secondary"
@@ -78,6 +80,8 @@ export default function App() {
                   </Grid>
                   <Grid item>
                     <Button
+                      href="https://eggdao.notion.site/EggDAO-cd8f099107704fecac5b8f318d41a330"
+                      target="_blank"
                       style={{
                         width: 222,
                         textTransform: "none",
